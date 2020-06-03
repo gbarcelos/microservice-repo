@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    password: "@moog197813"
+    username: root
+    url: jdbc:mysql://127.0.0.1:3306/transportador?useTimezone=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
